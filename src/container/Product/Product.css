@@ -1,0 +1,38 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 100%;
+  padding: 2px 16px;
+  display: flex;
+  justify-content: center;
+}
+.button-minus, .button-plus {
+  height: 50px;
+  width: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background-color: blueviolet;
+}
+.number-show {
+  text-align: center;
+  width: 75px;
+}
+.header {
+  display: block;
+  margin: auto;
+  width: 300px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
